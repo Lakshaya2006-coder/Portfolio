@@ -1,0 +1,168 @@
+/* Base Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: black;
+}
+
+/* Header */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+nav a:hover {
+  background-color: #3b82f6;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  background-color: white;
+  margin: 30px auto;
+  width: 80%;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #1e3a8a;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 8px;
+}
+
+/* About Section */
+#about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: block;
+  margin: 20px auto;
+}
+
+/* Skills Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+th {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* Buttons */
+button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Back to Top Button */
+#top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1e3a8a;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+/* Divider */
+hr {
+  border: 2px solid #e5e7eb;
+  width: 80%;
+  margin: 40px auto;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(59,130,246,0.5);
+}
+
+.contact-form button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #1e40af;
+}
